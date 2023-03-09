@@ -1,0 +1,376 @@
+* {
+  padding: 0;
+  margin: 0;
+  background: #efefef;
+  scroll-behaviour: smooth;
+}
+
+/* Total container  */
+.container {
+  background: #fff;
+  width: 90%;
+  height: 80vh;
+  margin: 40px auto;
+  display: flex;
+  flex-basis: 50%;
+}
+
+/* Image part  */
+.container__image {
+  background: #fff;
+  margin: 10px 10px;
+}
+.container__image img {
+  height: 100%;
+  width: 500px;
+  display: flex;
+}
+
+/* Forms part */
+.form__container {
+  flex-basis: 50%;
+  margin: 100px 10px 10px 40px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+}
+.form__container-text {
+  background: #fff;
+  margin-bottom: 30px;
+}
+.form__container-text h1 {
+  background: #fff;
+  font-family: sans-serif;
+  font-weight: 500;
+  margin-bottom: 20px;
+  font-size: 28px;
+}
+.form__container-text > h1 > span {
+  font-family: courier;
+  background: #fff;
+  font-weight: 600;
+  margin-left: 5px;
+  font-size: 40px;
+}
+.form__container-text p {
+  background: #fff;
+  font-family: sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 18px;
+}
+.form__container-text a {
+  font-weight: bold;
+  color: #000000;
+  background: #fff;
+}
+
+/* Forms input */
+.form__container-input {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+}
+.form__container-input-email_text {
+  background: #fff;
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 5px;
+  justify-content: center;
+}
+.form__container-input-email {
+  background: #fff;
+  padding: 8px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  border: 1px solid black;
+}
+.form__container-input-password_text {
+  background: #fff;
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 5px;
+  justify-content: center;
+}
+.form__container-input-password {
+  background: #efefef;
+  border: 1px solid black;
+  padding: 8px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.form__container-input a {
+  color: #000000;
+  background: #fff;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 40px;
+  font-family: sans-serif;
+  font-size: 12px;
+}
+.form__container-input_signup-btn {
+  background: #000000;
+  padding: 8px;
+  color: #fff;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  border: 1px solid black;
+  font-family: sans-serif;
+
+}
+.form__container-login_btn {
+  font-family: sans-serif;
+  background: #000000;
+  color: #fff;
+  padding: 8px;
+  cursor: pointer;
+  border-radius: 2px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  display: flex;
+}
+
+
+@media screen and (max-width: 850px) {
+  .container {
+    background: #fff;
+    width: 90%;
+    height: 80vh;
+    margin: 30px auto;
+    display: flex;
+  }
+  
+  /* Image part  */
+  .container__image {
+    background: #fff;
+    margin: 10px 10px;
+  }
+  .container__image img {
+    height: 100%;
+    width: 400px;
+    display: flex;
+  }
+  
+  /* Forms part */
+  .form__container {
+    margin: 80px 10px 10px 10px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+  }
+  .form__container-text {
+    background: #fff;
+    margin-bottom: 30px;
+  }
+  .form__container-text h1 {
+    background: #fff;
+    font-family: sans-serif;
+    font-weight: 500;
+    margin-bottom: 20px;
+    font-size: 28px;
+  }
+  .form__container-text p {
+    background: #fff;
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .form__container-text a {
+    font-weight: bold;
+    color: #000000;
+    background: #fff;
+  }
+  
+  /* Forms input */
+  .form__container-input {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+  }
+  .form__container-input-email_text {
+    background: #fff;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 5px;
+    justify-content: center;
+  }
+  .form__container-input-email {
+    background: #fff;
+    padding: 8px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+  }
+  .form__container-input-password_text {
+    background: #fff;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 5px;
+    justify-content: center;
+  }
+  .form__container-input-password {
+    background: #efefef;
+    border: 1px solid black;
+    padding: 8px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  .form__container-input a {
+    color: #000000;
+    background: #fff;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 40px;
+    font-family: sans-serif;
+    font-size: 12px;
+  }
+  .form__container-input_signup-btn {
+    background: #000000;
+    padding: 8px;
+    color: #fff;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    font-family: sans-serif;
+  
+  }
+  .form__container-input_google-signup_btn {
+    border: none;
+    font-family: sans-serif;
+    background: #fff;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    display: flex;
+  }
+}
+@media screen and (max-width: 700px) {
+  .container {
+    background: #fff;
+    width: 80vw;
+    height: 80vh;
+    margin: 60px auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-basis: 50%;
+  }
+  
+  /* Image part  */
+  .container__image {
+    background: #fff;
+    margin: 10px 10px;
+    display: none;
+  }
+  .container__image img {
+    height: 100%;
+    width: 500px;
+    display: flex;
+  }
+  
+  /* Forms part */
+  .form__container {
+    margin: 100px auto;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+  }
+  .form__container-text {
+    background: #fff;
+    margin-bottom: 30px;
+  }
+  .form__container-text h1 {
+    background: #fff;
+    font-family: sans-serif;
+    font-weight: 500;
+    margin-bottom: 20px;
+    font-size: 28px;
+  }
+  .form__container-text p {
+    background: #fff;
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .form__container-text a {
+    font-weight: bold;
+    color: #000000;
+    background: #fff;
+  }
+  
+  /* Forms input */
+  .form__container-input {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+  }
+  .form__container-input-email_text {
+    background: #fff;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 5px;
+    justify-content: center;
+  }
+  .form__container-input-email {
+    background: #fff;
+    padding: 8px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+  }
+  .form__container-input-password_text {
+    background: #fff;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 5px;
+    justify-content: center;
+  }
+  .form__container-input-password {
+    background: #efefef;
+    border: 1px solid black;
+    padding: 8px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  .form__container-input a {
+    color: #000000;
+    background: #fff;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 40px;
+    font-family: sans-serif;
+    font-size: 12px;
+  }
+  .form__container-input_signup-btn {
+    background: #000000;
+    padding: 8px;
+    color: #fff;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    font-family: sans-serif;
+  
+  }
+  .form__container-input_google-signup_btn {
+    border: none;
+    font-family: sans-serif;
+    background: #fff;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    display: flex;
+  }
+  
+}
