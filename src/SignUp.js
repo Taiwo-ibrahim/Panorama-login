@@ -14,6 +14,7 @@ function SignUp() {
   onAuthStateChanged(auth, (currentUser) => {
     setUser(currentUser)
   })
+  console.log(user)
   const navigate = useNavigate()
 
   const register =  async () => {

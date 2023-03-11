@@ -8,7 +8,7 @@ function Welcome() {
   const navigate = useNavigate()
   const logout = async () => {
     await signOut(auth)
-    navigate("/SignUp")
+    navigate("/")
 
   }
 
